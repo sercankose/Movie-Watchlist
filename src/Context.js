@@ -28,7 +28,7 @@ function ContextProvider({ children }) {
 
   async function fetchMovieData() {
     const response = await fetch(
-      `http://www.omdbapi.com/?s=${search}&apikey=c01376c1`
+      `https://www.omdbapi.com/?s=${search}&apikey=c01376c1`
     );
     return await response.json();
   }
