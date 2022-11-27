@@ -57,7 +57,7 @@ export default function WatchlistPage() {
                     {isReadMore ? data.Plot.slice(0, 500) : data.Plot}
                     <span
                       id={data.imdbID}
-                      onClick={toggleReadMore()}
+                      onClick={toggleReadMore}
                       className="read-or-hide"
                     >
                       {isReadMore && data.Plot.length > 500
