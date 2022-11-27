@@ -1,6 +1,6 @@
 {
   "name": "movie-watchlist",
-  "homepage": "http://sercankose.github.io/Movie-Watchlist",
+  "homepage": "http://sercankose.github.io/Movie-Watchlist/movie",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
