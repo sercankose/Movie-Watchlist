@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <React.StrictMode>
         <Switch>
-          <Route exact path="/movie">
+          <Route exact path="/">
             <SearchPage />
           </Route>
           <Route path="/watchlist">
