@@ -10,9 +10,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ContextProvider>
-    <HashRouter>
+    <BrowserRouter basename="/movie">
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </ContextProvider>
 );
 

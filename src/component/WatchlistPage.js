@@ -10,7 +10,7 @@ export default function WatchlistPage() {
     <div className="container">
       <div className="header">
         <h1>My Watchlist</h1>
-        <Link className="header-link" to="/">
+        <Link className="header-link" to="/movie">
           Search for movies...
         </Link>
       </div>
@@ -20,7 +20,7 @@ export default function WatchlistPage() {
             <p className="no-watchlist-data">
               Your watchlist is looking a little empty...
             </p>
-            <Link className="watchlist-link" to="/">
+            <Link className="watchlist-link" to="/movie">
               {<i className="fa-solid fa-plus"></i>} Let’s add some movies!
             </Link>
           </div>
