@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/movie">
             <SearchPage />
           </Route>
-          <Route path="/movie/watchlist">
+          <Route path="/watchlist">
             <WatchlistPage />
           </Route>
         </Switch>

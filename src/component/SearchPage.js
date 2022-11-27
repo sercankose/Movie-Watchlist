@@ -60,7 +60,7 @@ export default function SearchPage() {
     <div className="container">
       <div className="header">
         <h1>Find your film</h1>
-        <Link className="header-link" to="/movie/watchlist">
+        <Link className="header-link" to="/watchlist">
           My Watchlist
         </Link>
       </div>
