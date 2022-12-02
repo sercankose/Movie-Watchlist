@@ -4,6 +4,8 @@ This is my solo project which was developed by using React.
 
 In the movie watchlist project, you can find any movie or tv series and add/remove your watchlist.
 
+You can reach website clicking <a href="https://scintillating-baklava-4d00f2.netlify.app/" target="_blank">here</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
